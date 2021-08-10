@@ -1,0 +1,13 @@
+span{
+    background-color: #123412;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Picture01{
+    width: 200px;
+    height: 200px;
+}
