@@ -1,0 +1,20 @@
+.navigation{
+    text-transform: uppercase;
+}
+footer{
+    display: flex;
+}
+.footNav{
+    display: flex;
+}
+.footLink{
+    margin-left: 5vh;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+}
+.nav01{
+    background-color: #567;
+    width: 20vh;
+}
