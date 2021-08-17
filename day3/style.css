@@ -1,0 +1,57 @@
+body{
+    font-family: arial;
+    color: green;
+    /* margin: 100px; */
+}
+h3{
+    font-size: 50px;
+    margin: 0px;
+    color: crimson;
+}
+body a{
+    color: black;
+    text-decoration: none;
+}
+/* Kombinatory */
+div>button{
+    background-color: #456;
+    border-radius: 25%;
+    color: white;
+}
+h1 + p{
+    color: yellow;
+}
+h4 ~ p{
+    color: #11a79f;
+    font-family: georgia;
+}
+/* Selektor uniwersalny (*) */
+/* Blok deklaracji "{}" */
+h2, h3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.first{
+    font-size: 40px;
+}
+.green{
+    background-color: yellowgreen;
+    font-family: arial;
+    text-indent: 20px;
+}
+.big{
+    width: 300px;
+    font-size: 10px;
+    border: 10px solid #11a79f;
+}
+.last{
+    text-transform: uppercase;
+}
+.mong01{
+    text-align: center;
+    font-size: 30px;
+}
+.mong02{
+    width: 500px;
+    height: 500px;
+    background-color: #456;
+}

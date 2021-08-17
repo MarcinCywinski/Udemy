@@ -1,0 +1,43 @@
+/* div:nth-child(2){
+    font-family: arial;
+} */
+
+/* div + div{
+    font-family: arial;
+} */
+
+/* div ~ div{
+    font-family: arial;
+    color: yellow;
+} */
+
+/* p + p{
+    color: green;
+} */
+
+/* p:nth-last-child(1){
+    color: hotpink;
+} */
+
+/* p + p + p {
+    color: indigo;
+} */
+
+/* div ~ div>p:nth-last-child(1){
+    color: lawngreen;
+} */
+
+/* tylda oznacza kady młodszy brat */
+
+/* div > div {
+    color: yellow;
+} */
+/* div > p{
+    color: tomato;
+} */
+/* p:nth-last-child(1){
+    color: violet;
+} */
+div * p{
+    color: teal;
+}
