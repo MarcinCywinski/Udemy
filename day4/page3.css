@@ -1,0 +1,32 @@
+html{
+    font-family: arial;
+}
+.first{
+    background-color: rgb(255, 0, 0);
+    width: 50vw;
+    margin: 0 auto;
+}
+.second{
+    background-color: #1234a6;
+    height: 20vh;
+    margin-top: 100px;
+}
+
+div p{
+    color: white;
+}
+
+/* .first>p{
+    font-size: 30px;
+} */
+
+div:first-of-type{
+    font-size: 2em;
+}
+
+div:last-of-type{
+    font-size: 1.5rem;
+}
+
+
+
