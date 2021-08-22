@@ -1,0 +1,24 @@
+body p{
+    width: 500px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    margin: 0 auto;
+}
+.italic{
+    margin: 30px auto;
+    color: yellow;
+    background-color: black;
+    text-align: justify;
+}
+.italic:hover{
+    background-color: gray;
+    color: green;
+    text-decoration: underline;
+    line-height: 3rem;
+    width: 700px;
+}
+
+body>p:nth-child(3){
+    text-align: center;
+    font-style: italic;
+}
