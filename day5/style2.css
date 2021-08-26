@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+}
+.firstText{
+    text-align: center;
+    line-height: 100vh;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 5vh;
+    /* margin: 50vh auto; */
+}

@@ -1,0 +1,48 @@
+/* Zadanie 1 */
+/* p {
+    color: blue;
+} */
+
+/* body p {
+    color: red;
+} */
+
+/* p{
+    color: red !important;
+} */
+
+/* Zadanie 2 */
+/* .name{
+    font-size: 30px;
+    background-color: red;
+}
+
+/* .name{
+    background-color: grey;
+} */
+
+/* .user p{
+    background-color: grey;
+} */
+
+/* p:first-child{
+    background-color: grey;
+} */
+
+/* Zadanie 3 */
+/* body{
+    font-family: arial;
+}
+
+div{
+    font-size: 40px;
+} */
+
+/* Zadanie 4 */
+body div p {
+    color: blue;
+}
+
+#header{
+    color: red;
+}
