@@ -35,9 +35,11 @@ div>p:nth-child(4){
 }
 div>p:nth-child(5){
     text-align: justify;
+    text-align-last: center;
 }
 div>p:nth-child(6){
     text-transform: uppercase;
+    hyphens: auto;
 }
 div>p:nth-child(7){
     text-transform: capitalize;
