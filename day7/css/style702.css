@@ -1,0 +1,35 @@
+a{
+    display: inline-block;
+    font-size: 30px;
+    width: 18%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+li{
+    display: inline-block;
+    width: 20%;
+    background-color: royalblue;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+button{
+    display: block;
+    background-color: white;
+    border: 4px dashed black;
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    padding: 10px 30px;
+    margin: 100px auto 0 auto;
+    transition: 0.8s;
+    box-sizing: border-box;
+    width: 40%;
+}
+
+button:hover{
+    background-color: black;
+    color: blanchedalmond;
+    width: 70%;
+}

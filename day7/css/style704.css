@@ -1,0 +1,26 @@
+body{
+    background-color: gray;
+    text-align: center;
+    
+}
+
+.btn{
+    background-color: yellow;
+    border-radius: 20px;
+    border-style: none;
+    box-shadow: 0 0 0 6px black, 0 0 0 12px yellow, 0 0 0 18px green;
+    font-family: arial;
+    font-size: 40px;
+    margin: 25%;
+    padding: 15px 40px;
+    text-transform: uppercase;
+    transition: 1s;
+    /* line-height: 120%; */
+    /* width: 50%; */
+}
+.btn:hover{
+    box-shadow: 0 0 0 10px black, 0 0 0 14px yellow, 0 0 0 20px green;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 1s;
+}

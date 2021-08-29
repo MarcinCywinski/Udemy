@@ -1,0 +1,28 @@
+/* ul{
+    margin: 5vh;
+} */
+li{
+    display: inline-block;
+    list-style-type: none;
+}
+a{
+    display: inline-block;
+    width: 260px;
+    text-decoration: none;
+    background-color: black;
+    color: orange;
+    font-size: 24px;
+    font-family: arial;
+    text-transform: uppercase;
+    padding: 20px 0;
+    text-align: center;
+    margin: 20px 15px;
+    border: 3px solid orange;
+}
+
+a:hover{
+    background-color: #333;
+    border-color:  white;
+    color: white;
+    transition: 0.3s;
+}
