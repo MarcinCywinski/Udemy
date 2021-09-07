@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+div.wrapper{
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+/* nawigacja */
+nav{
+    font-size: 0;
+}
+nav a{
+    background-color: gray;
+    box-sizing: border-box;
+    color: white;
+    display: inline-block;
+    font-family: arial;
+    font-size: 18px;
+    height: 40px;
+    line-height: 40px;
+    /* padding: 10px 0; */
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 25%;
+}
+
+
+
+.btn1{
+    background-color: burlywood;
+}
+.btn2{
+    background-color: deepskyblue;
+}
+.btn3{
+    background-color: darkcyan;
+}
+.btn4{
+    background-color: royalblue;
+}
+nav a:hover{
+    border-bottom: 8px solid black;
+    color: black;
+    background-color: white;
+}
+/* header */
+header{
+    background-color: cadetblue;
+    height: 300px;
+}
+/* main */
+main{
+    background-color: burlywood;
+    min-height: 50vh;
+
+}
+
+/* footer */
+footer{
+    min-height: 100px;
+    background-color: darkcyan;
+}

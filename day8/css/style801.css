@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div.wrapper{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+/* Navigation */
+nav{
+    background-color: #ddd;
+    padding-right: 70px;
+    text-align: right;
+
+    /* padding: 10px 0; */
+}
+nav a{
+    border: 2px solid;
+    color: brown;
+    display: inline-block;
+    font-family: arial, sans-serif;
+    font-size: 20px;
+    margin: 10px 20px;
+    padding: 10px 25px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+nav a:hover{
+    background-color: brown;
+    color: white;
+    transition: 0.2s;
+}
+/* Header */
+header{
+    background-color: cadetblue;
+    height: 300px;
+}
+main{
+    background-color: burlywood;
+    min-height: 50vh;
+}
+footer{
+    background-color: darkcyan;
+    min-height: 100px;
+}

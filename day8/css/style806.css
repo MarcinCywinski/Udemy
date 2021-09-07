@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+/* font-family: 'Roboto', sans-serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-image: url(/Udemy/day8/img/sunrise-1634197_1920.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+}
+
+nav{
+    background-color: #333;
+    border-bottom: 4px royalblue solid;
+    padding: 0 0 0 20px;
+}
+
+nav a{
+    display: inline-block;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    padding: 20px 30px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: orange;
+}

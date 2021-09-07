@@ -1,0 +1,110 @@
+/* font-family: 'Oswald', sans-serif;
+font-family: 'Roboto', sans-serif; */
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+html{
+    font-size: 10px;
+    font-family: 'Oswald', sans-serif;
+}
+
+/* Nawigacja */
+nav{
+    margin: 30px auto;
+    max-width: 1440px;
+    text-align: right;
+}
+
+nav a{
+    color: #555;
+    display: inline-block;
+    font-size: 1.8rem;
+    font-family: 'Roboto', sans-serif;
+    margin: 0 20px;
+    padding: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    
+}
+
+nav a.reservation{
+    border: 2px solid #555;
+    font-size: 2.2rem;
+    letter-spacing: 1px;
+    margin-right: 50px;
+    margin-left: 80px;
+    padding: 10px 30px;
+    transition: 0.5s;
+}
+
+nav a.reservation:hover{
+    background-color: royalblue;
+    border-color: royalblue;
+    color: #eee;
+}
+
+nav a:hover{
+    border-bottom: 2px solid #555;
+    color: black;
+}
+/* Header */
+header{
+    background-image: url(/Udemy/day8/img/man-362150_1280.jpg);
+    background-size: cover;
+    height: 40vh;
+}
+header h1{
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    font-size: 6rem;
+    line-height: 40vh;
+    text-align: center;
+}
+/* Main */
+main{
+    font-size: 0;
+    margin: 5vh;
+    max-width: 1440px;
+}
+main p.description{
+    font-size: 2.2rem;
+    line-height: 170%;
+    margin: 0 30px 50px 30px;
+    text-align: center;
+}
+main div.feature{
+    display: inline-block;
+    width: 33%;
+}
+
+main div.image{
+    height: 200px;
+    background-color: royalblue;
+    margin: 20px;
+}
+
+main div.image:hover{
+    height: 200px;
+    background-color: #0cd883;
+    margin: 20px;
+}
+
+main h2{
+    color: #222;
+    font-size: 2rem;
+    text-align: center;
+}
+
+/* Footer */
+footer{
+    background-color: #000;
+}
+
+footer p{
+    color: white;
+    font-size: 2rem;
+    padding: 2rem 0;
+    text-align: center;
+}
