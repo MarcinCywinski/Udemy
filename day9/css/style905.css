@@ -13,3 +13,12 @@ a{
     margin: 20px;
     background-color: #eee;
 }
+/* .clear{
+    clear: both;
+} */
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}

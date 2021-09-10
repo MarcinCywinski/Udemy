@@ -1,0 +1,9 @@
+div::before{
+    content: "nazwa";
+}
+.second::after{
+    background-color: teal;
+    content:"Dupa";
+    display: block;
+    width: 30vw;
+}
