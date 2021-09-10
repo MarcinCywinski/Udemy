@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: black;
+    /* overflow: auto; */
+}
+a{
+    float: left;
+    padding: 30px;
+    margin: 20px;
+    background-color: #eee;
+}

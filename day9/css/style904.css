@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: black;
+}
+
+nav ul{
+    list-style: none;
+    height: 100px;
+}
+
+nav li{
+    float: left;
+}
+
+nav a{
+    background-color: violet;
+    color: white;
+    display: block;
+    height: 80px;
+    line-height: 80px;
+    margin: 20px;
+}
