@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.item1 {
+    background-color: royalblue;
+    border: 10px solid red;
+    box-sizing: border-box;
+    float: left;
+    height: 200px;
+    width: 50%;
+}
+
+.item2 {
+    background-color: darkgoldenrod;
+    float: left;
+    height: 200px;
+    width: 25%;
+}
+
+.item3 img {
+    float: right;
+}
+
+section {
+    /* background-color: #555; */
+    overflow: hidden;
+}
