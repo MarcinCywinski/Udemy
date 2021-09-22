@@ -1,0 +1,19 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.one{
+    background-color: #ddd;
+    line-height: 3vh;
+}
+
+header{
+    position: relative;
+    height: 400px;
+    background-color: #555;
+}
