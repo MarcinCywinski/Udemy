@@ -1,0 +1,27 @@
+.avatar{
+    top: 0;
+    left: 0;
+    padding: 20px;
+    border-radius: 50%;
+    height: 180px;
+    width: 180px;
+}
+
+div.profile{
+    position: relative;
+    background-color: #ddd;
+    margin: 2vh auto;
+    width: 800px;
+}
+
+.answer{
+    position: absolute;
+    left: 220px;
+    top: 25px;
+    padding-right: 100px;
+}
+
+.answer h1{
+    text-transform: uppercase;
+}
+
