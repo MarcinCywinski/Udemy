@@ -1,0 +1,9 @@
+.bg{
+    height: 50vh;
+    width: 50vw;
+    background-color: transparent;
+    border: 14px dotted red;
+    padding: 10px;
+    background-color: rgba(99, 100, 87, 0.404);
+    color: white;
+}
