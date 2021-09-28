@@ -1,0 +1,20 @@
+body{
+    height: 300vh;
+}
+h2{
+    text-transform: uppercase;
+}
+
+.bg{
+    height: 50vh;
+    width: 50vw;
+    border: 14px solid darkorange;
+    padding: 30px;
+    margin-top: 600px;
+
+    background-repeat: no-repeat;
+    background-image: url(/Udemy/day12/img/break-dance-3532494_1280.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}

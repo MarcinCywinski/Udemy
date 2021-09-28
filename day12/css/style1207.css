@@ -1,0 +1,19 @@
+h2{
+    text-transform: uppercase;
+}
+
+.bg{
+    height: 50vh;
+    width: 50vw;
+    /* border: 14px solid transparent; */
+    border: 14px solid fuchsia;
+    padding: 30px;
+    margin-top: 20vh;
+
+    background-repeat: repeat;
+    background-image: url(/Udemy/day12/img/rabbits-4890861_640.jpg);
+    /* background-origin: content-box; */
+    background-origin: padding-box;
+    background-color: palegreen;
+    background-clip: content-box;
+}
