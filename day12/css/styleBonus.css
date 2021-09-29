@@ -1,0 +1,9 @@
+.bg{
+    height: 50vh;
+    width: 50vw;
+    border: 14px solid skyblue;
+    padding: 30px;
+
+    /* zapis skrotowy */
+    background: rgba(28, 120, 156, 0.658) url(/Udemy/day12/img/auckland-gdd200d3f2_1920.jpg) no-repeat 0% 0% / 100% auto content-box border-box;
+}
