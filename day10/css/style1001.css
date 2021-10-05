@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+header div{
+    background-color: royalblue;
+    float: left;
+    height: 25vh;
+    border: 30px solid white;
+    width: 25%;
+    
+}
+
+header div:nth-child(1){
+    background-color: greenyellow;
+}
+
+header div:nth-child(2){
+    background-color: rgb(253, 255, 105);
+}
+
+header div:nth-child(3){
+    background-color: rgb(47, 68, 255);
+}
+
+header div:nth-child(4){
+    background-color: rgb(255, 47, 47);
+}
+
+header div:nth-child(1):hover{
+    background-color: rgb(218, 21, 37);
+}
+
+header div:nth-child(2):hover{
+    background-color: rgb(103, 102, 153);
+}
+
+header div:nth-child(3):hover{
+    background-color: rgb(21, 218, 31);
+}
+
+header div:nth-child(4):hover{
+    background-color: rgb(21, 162, 218);
+}
+
+
+nav{
+    background-color: black;
+    margin: 20px 0;
+    padding: 10px 0 10px 50px;
+}
+
+nav ul{
+    list-style: none;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+nav ul li{
+    float: left;
+    margin-left: 20px;
+    width: 25%;
+}
+
+nav ul li a{
+    border: 2px solid white;
+    display: block;
+    font-size: 26px;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover{
+    border-color: yellow;
+    color: yellow;
+    background-color: thistle;
+}
+
+div.blog{
+    margin-top: 40px;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+main{
+float: left;
+padding: 40px 20px 0 20px;
+width: 65%;
+}
+
+article img{
+    float: left;
+    margin: 20px 20px 20px 0;
+    width: 200px;
+}
+
+article h1{
+    text-transform: uppercase;
+}
+article p{
+    margin-top: 20px;
+}
+
+aside{
+float: left;
+width: 30%;
+}
+
+section.contact{
+    background-color: #ddd;
+    padding: 15px 15px;
+}
+
+section.contact p{
+    margin-bottom: 24px;
+    font-weight: bold;
+}
+
+section.contact li {
+    margin: 10px 0;
+}
+
+section.contact li i{
+    /* font-size: 30px; */
+    color: #333;
+    margin-right: 20px;
+}
+
+section.contact ul{
+    list-style: none;
+}
+section.news{
+    background-color: #ddd;
+    height: 300px;
+    margin-top: 30px;
+}
+
+footer{
+    background-color: #444;
+    color: white;
+    margin-top: 40px;
+    text-align: center;
+    padding: 20px 0;
+}

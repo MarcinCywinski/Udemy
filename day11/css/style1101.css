@@ -1,0 +1,34 @@
+/* nav{
+    background-color: black;
+    opacity: 50%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 40%;
+    right: 40%;
+} */
+
+div{
+    position: fixed;
+}
+div.red{
+    width: 200px;
+    height: 100px;
+    background-color: red;
+    z-index: -1;
+}
+
+div.green{
+    width: 120px;
+    height: 130px;
+    background-color: green;
+    z-index: -3;
+}
+
+div.black{
+    width: 160px;
+    height: 50px;
+    background-color: black;
+    z-index: 0;
+}
+

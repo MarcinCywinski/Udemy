@@ -1,0 +1,11 @@
+.bg{
+    height: 80vh;
+    width: 80vw;
+    border: 14px solid greenyellow;
+    padding: 30px;
+    margin-top: 30px;
+    background-image: url(/Udemy/day12/img/eye-4997724_640.png), url(/Udemy/day12/img/rabbits-4890861_640.jpg);
+    background-repeat: no-repeat, repeat-x;
+    /* background-repeat: repeat-x; */
+    /* background-repeat: repeat-y; */
+}

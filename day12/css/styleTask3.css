@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.game{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(/Udemy/day12/img/krzyzyk.png), url(/Udemy/day12/img/krzyzyk.png), url(/Udemy/day12/img/kolko.png), url(/Udemy/day12/img/plansza.png);
+    background-repeat: no-repeat;
+    background-position: 47% center, 26%, 47% 95%, center center;
+    background-size: 15% 30%, 15% 30%, 15% 30%, 60% 100%;
+    background-attachment: scroll;
+}

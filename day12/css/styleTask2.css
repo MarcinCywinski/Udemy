@@ -1,0 +1,37 @@
+.first{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+    padding: 20px 100px 60px 100px;
+    background-color: skyblue;
+    background-repeat: no-repeat;
+    background-image: url(/Udemy/day12/img/1-2-wink-emoji-png.png);
+    background-size: 15%;
+    background-position: center bottom;
+}
+
+.first:hover{
+    background-image: url(/Udemy/day12/img/3-2-love-hearts-eyes-emoji-png.png);
+    background-size: 15%;
+    background-position: center bottom;
+}
+
+.second{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+    padding: 20px 100px 60px 100px;
+    background-color: skyblue;
+    background-repeat: no-repeat;
+    background-image: url(/Udemy/day12/img/1-2-wink-emoji-png.png);
+    background-size: 15%;
+    background-position: center bottom;
+}
+
+.second:hover{
+    background-image: url(/Udemy/day12/img/3-2-love-hearts-eyes-emoji-png.png);
+    background-size: 15%;
+    background-position: center bottom;
+}

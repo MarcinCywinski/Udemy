@@ -1,0 +1,13 @@
+h2{
+    text-transform: uppercase;
+}
+
+.bg{
+    height: 50vh;
+    width: 50vw;
+    border: 14px solid red;
+    padding: 30px;
+    background-color: #777;
+    background-image: url(/Udemy/day12/img/eye-4997724_640.png), url(/Udemy/day12/img/break-dance-3532494_1280.jpg);
+    background-repeat: no-repeat;
+}

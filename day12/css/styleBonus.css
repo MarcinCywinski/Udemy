@@ -1,0 +1,19 @@
+body{
+    height: 100vh;
+    margin: 0;
+    /* background-image: linear-gradient(50deg, black,blue 100px, white); */
+    background-color: magenta;
+    background-color: magenta;
+    background-image: linear-gradient(#eee 2px, transparent 2px), linear-gradient(90deg, #eee 2px, transparent 0);
+    background-size: 60px 60px;
+}
+
+.bg{
+    height: 50vh;
+    width: 50vw;
+    border: 14px solid skyblue;
+    padding: 30px;
+
+    /* zapis skrotowy */
+    background: rgba(28, 120, 156, 0.658) url(/Udemy/day12/img/auckland-gdd200d3f2_1920.jpg) no-repeat 50% 50% / 50% auto content-box border-box;
+}

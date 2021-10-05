@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    min-height: 200vh;
+}
+
+.menu_ico{
+    position: fixed;
+    top: 30px;
+    right: 50px;
+    color: gray;
+    font-size: 40px;
+}
+
+.menu_ico:hover{
+    color: black;
+    cursor: pointer;
+}
+
+p{
+    padding-right: 100px;
+}

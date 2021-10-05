@@ -1,0 +1,17 @@
+.bg{
+    height: 70vh;
+    width: 70vw;
+    border: 12px transparent darkkhaki;
+    padding: 20px;
+    margin-top: 20px;
+    
+    /* background-repeat: no-repeat; */
+
+    /* background-position: -50vh 50vh; */
+    /* background-position: right; */
+    /* background-position: right 30% top 70%; */
+    background-color: darkslategrey;
+    background-image: url(/Udemy/day12/img/eye-4997724_640.png), url(/Udemy/day12/img/rabbits-4890861_640.jpg);
+    background-position: left, right;
+
+}
