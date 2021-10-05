@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* do 359px */
+p{
+    line-height: 100vh;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0 5%;
+}
+
+/* od 360px */
+@media (min-width: 360px){
+    p{
+        font-size: 24px;
+        color: red;
+    }
+}
+
+/* od 400px */
+@media (min-width: 400px){
+    p{
+        font-size: 28px;
+        color: blue;
+    }
+}
+
+@media (min-width: 600px){
+    p{
+        font-size: 30px;
+        color: chartreuse;
+    }
+}
+
+@media (min-width: 1024px){
+    p{
+        font-size: 50px;
+        color: chocolate;
+    }
+}
+
+@media (min-width: 1440px){
+    p{
+        font-size: 80px;
+        color: darkviolet;
+    }
+}
+
+@media (orientation:portrait){
+    body{
+        background-color: gold;
+    }
+}
+
+@media (orientation:landscape){
+    body{
+        background-color: indigo;
+    }
+}
+
+@media (orientation:landscape) and (min-width: 640px){
+    body{
+        background-color: orchid;
+    }
+}
+
