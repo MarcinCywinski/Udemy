@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    position: relative;
+    background-image: url(/Udemy/day13/img/bg.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    /* max-width: 1920px;
+    margin: 0 auto; */
+}
+
+header>*{
+    position: absolute;
+}
+
+img.logo{
+    top: 30px;
+    left: 60px;
+}
+
+header h1{
+    background-color: rgba(0, 0, 0, 0.507);
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    top: 45%;
+    width: 100%;
+    text-align: center;
+    font-size: 60px;
+    padding: 20px ;
+}
+
+header button{
+    bottom: 40px;
+    right: 50px;
+    font-size: 40px;
+    padding: 10px 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    background-color: transparent;
+    color: white;
+    border: 4px solid white;
+}
+
+header button:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: .3s;
+}
+
+@media (max-width: 1024px){
+    header{
+        background-size: cover;
+    }
+}
+
+@media (max-width: 812px) and (orientation: landscape){
+    header img{
+        width: 25%;
+    }
+    header h1{
+        font-size: 26px;
+    }
+    header button{
+        bottom: 30px;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 533px) and (orientation: landscape){
+    header h1{
+        top: 40%;
+        font-size: 20px;
+    }
+    header button{
+        bottom: 30px;
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 414px) and (orientation: portrait){
+    img.logo{
+        width: 80%;
+        left: 10%;
+    }
+    header h1{
+        top: 35%;
+        font-size: 30px;
+        line-height: 180%;
+    }
+    header button{
+        right: 10%;
+        width: 80%;
+        font-size: 32px;
+    }
+
+}
+
+@media (max-width: 360px) and (orientation: portrait){
+    header h1{
+        top: 35%;
+        font-size: 26px;
+        line-height: 180%;
+    }
+}
+
+@media (max-width: 320px) and (orientation: portrait){
+    header button{
+        font-size: 22px;
+    }
+
+}
+
+section{
+    width: 86%;
+    margin: 80px auto 0 auto;
+}
+
+section p{
+    line-height: 1.7;
+    font-size: 14px;
+}
