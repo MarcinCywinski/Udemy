@@ -265,9 +265,7 @@ header button {
 }
 
 
-footer {
-    min-height: 30vh;
-}
+
 
 /* Sekcja 1 nasze cechy */
 
@@ -432,8 +430,8 @@ footer {
     background-color: #29a6dc;
 }
 
-@media (min-width: 768px){
-    .portfolio h1{
+@media (min-width: 768px) {
+    .portfolio h1 {
         font-size: 40px;
     }
 
@@ -441,11 +439,12 @@ footer {
         font-size: 28px;
         text-indent: 40px;
     }
-    
+
     .portfolio .about p {
         font-size: 18px;
         padding-left: 40px;
     }
+
     .portfolio .project {
         margin-bottom: 40px;
     }
@@ -467,27 +466,25 @@ footer {
         float: right;
     }
 
-    .project:nth-of-type(even) .about{
+    .project:nth-of-type(even) .about {
         padding-right: 0;
     }
 
-    .project:nth-of-type(even) .about p{
+    .project:nth-of-type(even) .about p {
         padding-right: 20px;
     }
 
-    .project:nth-of-type(even) .about h2{
+    .project:nth-of-type(even) .about h2 {
         text-indent: 0;
         margin-left: 40px;
     }
 
 }
 
-@media (orientation: landscape) and (min-width: 1024px){
+@media (orientation: landscape) and (min-width: 1024px) {}
 
-}
-
-@media (orientation: landscape) and (min-width: 1400px){
-    .portfolio h1{
+@media (orientation: landscape) and (min-width: 1400px) {
+    .portfolio h1 {
         font-size: 60px;
         padding: 30px 0;
     }
@@ -498,12 +495,13 @@ footer {
         text-indent: 40px;
         margin-bottom: 30px;
     }
-    
+
     .portfolio .about p {
         font-size: 18px;
         padding-left: 40px;
         line-height: 180%;
     }
+
     .portfolio .project {
         margin-bottom: 40px;
     }
@@ -511,7 +509,7 @@ footer {
 
 /* Slogan */
 
-.slogan{
+.slogan {
     text-align: center;
     background-image: url(../img/motto.jpg);
     background-size: cover;
@@ -537,55 +535,58 @@ footer {
     font-size: 12px;
 }
 
-.slogan .bg{
+.slogan .bg {
     margin: 0;
     background-color: rgba(0, 63, 114, 0.507);
     padding: 30px 10px;
 }
 
-@media (orientation: landscape){
-    .slogan p{
+@media (orientation: landscape) {
+    .slogan p {
         width: 60%;
         margin-left: auto;
         margin-right: auto;
     }
 }
 
-@media (min-width: 768px){
-    .slogan .bg{
+@media (min-width: 768px) {
+    .slogan .bg {
         background-color: rgba(0, 63, 114, 0.507);
-        padding: 50px 10px;}
+        padding: 50px 10px;
+    }
+
     .slogan h1 {
         font-size: 38px;
         margin-bottom: 35px;
     }
-    
+
     .slogan p {
         font-size: 26px;
         width: 50%;
         margin: 0 auto;
     }
-    
+
     .slogan p.author {
         margin-top: 40px;
         font-size: 18px;
     }
 }
 
-@media (min-width: 1024px){
-    .slogan .bg{
-        padding: 80px 10px;}
+@media (min-width: 1024px) {
+    .slogan .bg {
+        padding: 80px 10px;
+    }
 
     .slogan h1 {
         font-size: 60px;
         margin-bottom: 55px;
     }
-    
+
     .slogan p {
         font-size: 40px;
         width: 50%;
     }
-    
+
     .slogan p.author {
         margin-top: 40px;
         font-size: 26px;
@@ -593,33 +594,34 @@ footer {
 }
 
 /* Hobby */
-.hobby{
+.hobby {
     max-width: 1920px;
     margin: 0 auto;
 }
 
-.hobby .item{
+.hobby .item {
     height: 25vh;
     background-position: center;
     background-repeat: no-repeat;
 }
 
-.hobby .item:nth-of-type(1){
+.hobby .item:nth-of-type(1) {
     background-image: url(../img/hobby1.jpg);
 }
 
-.hobby .item:nth-of-type(2){
+.hobby .item:nth-of-type(2) {
     background-image: url(../img/hobby2.jpg);
 }
-.hobby .item:nth-of-type(3){
+
+.hobby .item:nth-of-type(3) {
     background-image: url(../img/hobby3.jpg);
 }
 
-.hobby .item:nth-of-type(4){
+.hobby .item:nth-of-type(4) {
     background-image: url(../img/hobby4.jpg);
 }
 
-.hobby .item p{
+.hobby .item p {
     font-family: 'Saira', sans-serif;
     color: white;
     text-align: center;
@@ -630,62 +632,203 @@ footer {
     padding: 5px 0;
 }
 
-.hobby h1{
+.hobby h1 {
     padding: 20px 0;
-    font-family: 'Saira Condensed', sans-serif;;
+    font-family: 'Saira Condensed', sans-serif;
+    ;
     text-align: center;
     font-size: 36px;
     text-transform: uppercase;
 }
 
-@media (min-width: 533px){
-    .hobby .item{
+@media (min-width: 533px) {
+    .hobby .item {
         float: left;
         width: 50%;
         height: 40vh;
     }
 }
 
-@media (min-width: 768px){
-    .hobby h1{
+@media (min-width: 768px) {
+    .hobby h1 {
         font-size: 48px;
         margin-top: 40px;
         margin-bottom: 35px;
     }
-    .hobby .item p{
+
+    .hobby .item p {
         font-size: 30px;
         padding: 15px 0;
     }
 }
 
-@media (min-width: 1024px){
-    .hobby .item p{
+@media (min-width: 1024px) {
+    .hobby .item p {
         padding: 0;
         line-height: 40vh;
         opacity: 0;
         transition: .8s;
     }
 
-    .hobby .item:hover p{
+    .hobby .item:hover p {
         opacity: 1;
-        
+
     }
+
     .hobby .item {
         background-size: 100%;
         transition: .8s;
     }
+
     .hobby .item:hover {
         background-size: 130%;
     }
 }
 
-@media (min-width: 1600px){
-    .hobby h1{
+@media (min-width: 1600px) {
+    .hobby h1 {
         font-size: 60px;
         margin-top: 50px;
         margin-bottom: 45px;
     }
-    .hobby .item p{
+
+    .hobby .item p {
         font-size: 40px;
     }
+}
+
+/* Contact */
+
+.contact {
+    background-color: black;
+    padding: 30px 20px;
+}
+
+.contact h1 {
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 26px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    color: white;
+    text-align: center;
+}
+
+
+.contact .wrap {
+    padding-top: 20px;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.contact input,
+.contact button,
+.contact textarea {
+    width: 100%;
+    margin-bottom: 25px;
+    font-family: 'Saira', sans-serif;
+    font-size: 12px;
+    padding: 5px;
+}
+
+.contact input {
+    height: 36px;
+}
+
+.contact textarea {
+    height: 120px;
+}
+
+.contact button {
+    font-size: 14px;
+    line-height: 40px;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+}
+
+.contact .socials {
+    padding-top: 30px;
+    font-size: 0;
+}
+
+.contact .social {
+    padding: 10px 0;
+    color: white;
+    font-family: 'Saira Condensed', sans-serif;
+
+}
+
+.contact .social img {
+    float: left;
+}
+
+.contact .social span {
+    line-height: 72px;
+    padding-left: 20px;
+    float: left;
+    font-size: 20px;
+}
+
+@media (min-width: 533px) {
+    .contact .social {
+        display: inline-block;
+        width: 50%;
+    }
+}
+
+@media (min-width: 1024px) {
+
+    .contact h1{
+        font-size: 60px;
+        padding: 30px 0;
+    }
+    .contact form,
+    .contact .socials {
+        float: left;
+        width: 50%;
+        padding: 0 20px;
+    }
+
+    .contact .social {
+        display: block;
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .contact input,
+    .contact button,
+    .contact textarea {
+        margin-bottom: 35px;
+    }
+
+    .contact input {
+        height: 46px;
+        font-size: 24px;
+    }
+
+    .contact textarea {
+        height: 180px;
+        font-size: 24px;
+    }
+
+    .contact button {
+        font-size: 20px;
+        line-height: 50px;
+        transition: .3s;
+        cursor: pointer;
+    }
+
+    .contact button:hover{
+        color: black;
+        background-color: white;
+    }
+}
+
+footer {
+    background-color: #29a6dc;
+    color: white;
+    font-family: 'Saira', sans-serif;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
 }
