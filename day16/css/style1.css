@@ -1,0 +1,39 @@
+body{
+    height: 500vh;
+}
+
+div {
+    /* display: block;
+    position: relative; */
+    margin: 50px 30px;
+    width: 80%;
+    height: 30vh;
+    border: 40px solid rgba(128, 128, 128, 0.26);
+    font-size: 40px;
+    padding: 40px;
+    background-color: rgba(137, 43, 226, 0.199);
+    background-image: url(../img/bg1.JPG);
+    background-origin: border-box;
+    background-clip: border-box;
+    background-image: linear-gradient(rgba(255, 0, 0, 0.267) 50%, rgba(0, 0, 255, 0.247) 75%, rgba(0, 128, 0, 0.274) 100%);
+    background-size: 20px 20px;
+    
+}
+
+/* div::after{
+    content: "";
+    background-image: url(../img/bg2.JPG), url(../img/bg1.JPG), url(../img/bg_big.jpg);
+    opacity: .5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+    background-repeat: no-repeat, repeat-x;
+    background-size: auto, 10% 30%, auto;
+    background-position: 50px 40px, 30px 50px, 100px 100px;
+    background-attachment: fixed;
+    background-origin: padding-box;
+    
+} */

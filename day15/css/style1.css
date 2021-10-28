@@ -2,6 +2,11 @@
    font-size: 40px;
 }
 
+::-moz-selection {
+    background-color: blueviolet;
+    color: white;
+}
+
 ::selection {
     background-color: blueviolet;
     color: white;
@@ -19,7 +24,8 @@ p{
     letter-spacing: 3px;
     word-spacing: 2vh;
     text-align: center;
-    text-align-last: right;
+    -moz-text-align-last: right;
+         text-align-last: right;
     line-height: 1.5;
 }
 
