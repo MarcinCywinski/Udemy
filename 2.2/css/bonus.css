@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    height: 400px;
+    background-color: black;
+}
+
+p{
+    line-height: 200%;
+    font-size: 20px;
+}
+
+nav{
+    position: sticky;
+    top: 10px;
+}
+
+nav li{
+    float: left;
+    line-height: 60px;
+    width: 25%;
+    list-style: none;
+    text-align: center;
+}
+
+nav li a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    background-color: blue;
+}

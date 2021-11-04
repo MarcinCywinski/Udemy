@@ -1,0 +1,27 @@
+header{
+    position: relative;
+    height: 400px;
+    background-color: black;
+}
+
+div{
+    position: absolute;
+}
+
+.left{
+    top: 0;
+    left: 0;
+    border-left: 300px solid greenyellow;
+    border-top: 200px solid transparent;
+    border-bottom: 100px solid transparent;
+
+}
+
+.right{
+    top: 0;
+    right: 0;
+    border-right: 300px solid red;
+    border-top: 300px solid transparent;
+    border-bottom: 100px solid blue;
+
+}
