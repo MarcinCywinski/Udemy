@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+a {
+    font-size: calc(4em - (5px*10));
+    display: block;
+    float: left;
+    margin: 10px;
+    width: calc(100%/5 -20px);
+    background-color: green;
+}
+
+div{
+    height: calc(100vh/3);
+    background-color: chartreuse;
+}
+
+div+div{
+    background-color: chocolate;
+}
+
+div+div+div{
+    background-color: cornflowerblue;
+}

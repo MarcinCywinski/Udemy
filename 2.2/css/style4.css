@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html {
+    --divNumber: 4;
+    --divHeight: calc(100vh/var(--divNumber));
+    --oddBgc: rgb(20, 20, 180);
+    --evenBgc: rgb(180, 60, 20);
+    --fontSizeDiv: 20px;
+    --width1: 10px;
+    --width2: 200px;
+}
+
+div{
+    /* height: var(--divHeight); */
+    height: calc(var(--width1) + var(--width2));
+    background-color: var(--oddBgc);
+}
+
+div:nth-child(even){
+    background-color: var(--evenBgc);
+}
