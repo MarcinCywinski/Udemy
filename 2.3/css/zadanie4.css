@@ -1,0 +1,56 @@
+html{
+    --side: 50%;
+}
+
+div{
+    position: absolute;
+    top: calc(50% - 20vh);
+    left: calc(50% - 20vh);
+    border: 5px solid black;
+    font-size: 0;
+    height: 40vh;
+    width: 40vh;
+}
+
+h2{
+    position: absolute;
+    top: calc(50% + 30vh);
+    left: calc(50% - 20vh);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+span:nth-child(1){
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: red;
+    height: var(--side);
+    width: var(--side);
+}
+
+span:nth-child(3){
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: blue;
+    height: var(--side);
+    width: var(--side);
+}
+
+span:nth-child(4){
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-color: red;
+    height: var(--side);
+    width: var(--side);
+}
+
+span:nth-child(2){
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: blue;
+    height: var(--side);
+    width: var(--side);
+}

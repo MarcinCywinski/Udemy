@@ -1,0 +1,61 @@
+html{
+    --dim: 15vw;
+    --col: white;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.board{
+    border: 10px solid black;
+    margin: 0 auto;
+    width: 30vw;
+    /* overflow: hidden; */
+}
+
+/* span:nth-child(1){
+    box-sizing: border-box;
+    content: "";
+    clear: both;
+    display: block;
+    float: left;
+    background-color: red;
+    height: var(--dim);
+    width: var(--dim);
+}
+
+span:nth-child(3){
+    box-sizing: border-box;
+    content: "";
+    clear: both;
+    display: block;
+    float: right;
+    background-color: red;
+    height: var(--dim);
+    width: var(--dim);
+} */
+h1{
+    text-align: center;
+}
+
+span{
+    float: left;
+    background-color: red;
+    height: var(--dim);
+    width: var(--dim);
+}
+
+/* span:nth-child(2){
+    background-color: var(--col)
+}
+
+span:nth-child(3){
+    background-color: var(--col);
+} */
+
+span:not(:first-child):not(:last-child){
+    background-color: var(--col);
+}
+
