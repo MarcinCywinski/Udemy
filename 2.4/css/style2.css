@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+button{
+    position: absolute;
+    top: 5vh;
+    left: 50vw;
+    border: 2px solid black;
+    background: white;
+    height: 5vh;
+    width: 10vh;
+    transition: .5s;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+}
+
+div{
+    position: absolute;
+    background-color: black;
+    height: 1vh;
+    width: 1vh;
+    transition: 1s;
+}
+
+button:hover ~ div{
+    height: 10vh;
+    width: 10vh;
+    transform: translate(95.18vw, 90vh);
+}
