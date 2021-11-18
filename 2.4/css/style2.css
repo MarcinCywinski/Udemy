@@ -7,11 +7,11 @@
 button{
     position: absolute;
     top: 5vh;
-    left: 50vw;
+    left: calc(50vw - 5vw);
     border: 2px solid black;
     background: white;
     height: 5vh;
-    width: 10vh;
+    width: 5vw;
     transition: .5s;
 }
 
@@ -22,14 +22,20 @@ button:hover{
 
 div{
     position: absolute;
+    top: 0;
+    left: 0;
     background-color: black;
     height: 1vh;
     width: 1vh;
-    transition: 1s;
+    transition: left .5s, top .5s .5s;
 }
 
 button:hover ~ div{
+    /* top: calc(100% - 10vh);
+    left: calc(100% - 10vh); */
+    /* transform: translate(calc(100vw - 10vh), calc(100vh - 10vh)); */
+    left: calc(100vw - 10vh);
+    top: calc(100vh - 10vh);
     height: 10vh;
     width: 10vh;
-    transform: translate(95.18vw, 90vh);
 }
