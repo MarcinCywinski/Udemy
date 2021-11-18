@@ -1,0 +1,49 @@
+div img:nth-child(2){
+    transition: .5s;
+}
+
+div img:nth-child(2):hover{
+    transform: rotate(80deg);
+}
+
+div img:nth-child(3){
+    transition: .5s;
+}
+
+div img:nth-child(3):hover{
+    transform: scale(-1, 1);
+}
+
+div img:nth-child(4){
+    transition: .5s;
+}
+
+div img:nth-child(4):hover{
+    transform: translate(40vh, 0);
+}
+
+div img:nth-child(5){
+    transition: .5s;
+}
+
+div img:nth-child(5):hover{
+    transform: skew(40deg, 40deg);
+}
+
+p{
+    transform: rotate(180deg);
+}
+
+div img:nth-child(6){
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.box1{
+    background-color: black;
+    height: 10vh;
+    width: 10vh;
+    transform: skew(25deg) rotate(45deg);
+}
