@@ -1,0 +1,43 @@
+:root{
+    --textSize: 80px;
+}
+
+button{
+    font-size: 40px;
+}
+h1{
+    margin: 0;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: var(--textSize);
+    font-family: arial;
+    transition: .5s;
+    border: 0px solid black;
+}
+
+/* .larger:hover ~ h1{
+    font-size: calc(var(--textSize)*2);
+}
+
+.smaller:hover ~ h1{
+    font-size: calc(var(--textSize)/2);
+}
+
+.border:hover ~ h1{
+    border: 30px solid black;
+} */
+
+h1.duzy {
+    font-size: calc(var(--textSize)*2);
+}
+
+h1.maly{
+    font-size: calc(var(--textSize)/2);
+    transform: rotate(180deg);
+}
+
+h1.bord{
+    border: 30px dotted green;
+}
