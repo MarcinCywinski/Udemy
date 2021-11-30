@@ -3,37 +3,128 @@
     padding: 0;
 }
 
+/* Button */
 span{
     display: block;
-    position: absolute;
-    top: 10vh;
-    left: 10vw;
+    background-color: brown;
     color: white;
-    text-align: center;
-    line-height: 7vh;
     font-family: Arial, Helvetica, sans-serif;
     text-transform: uppercase;
-    background-color: brown;
+    text-align: center;
+    line-height: 7vh;
+    margin: 10vh;
     height: 7vh;
-    width: 8vw;
+    width: 18vh;
 }
 
 span:hover{
     cursor: pointer;
 }
 
+/* Animation */
+
 span:hover ~ div:nth-child(2){
-    height: 40vh;
-    width: 30vw;
-    transform: translate(30vw, -50vh);
+    transform: translate(659px, -500px);
+    height: 150px;
+    width: 282.84px;
 }
+
+span:hover ~div:nth-child(3){
+    transform: translate(700px, -600px) rotate(45deg);
+    height: 200px;
+    width: 200px;
+}
+
+span:hover ~ div:nth-child(4){
+    transform: translate(850px, -600px);
+    height: 100px;
+    width: 50px;
+}
+
+span:hover ~ div:nth-child(5){
+    transform: translate(850px, -450px);
+    height: 50px;
+    width: 50px;
+}
+
+span:hover ~ div:nth-child(6){
+    transform: translate(700px, -450px);
+    height: 50px;
+    width: 50px;
+}
+
+span:hover ~ div:nth-child(7){
+    transform: translate(770px, -450px);
+    height: 100px;
+    width: 50px;
+}
+
+
+/* House */
 
 div:nth-child(2){
     position: absolute;
     top: 90vh;
     left: 10vw;
     background-color: brown;
-    transition: 2s;
     height: 0;
     width: 0;
+    transition: 2s;
+    z-index: 0;
+}
+
+div:nth-child(3){
+    position: absolute;
+    top: 90vh;
+    left: 10vw;
+    background-color: black;
+    height: 0;
+    width: 0;
+    transition: 2s .2s;
+    transform: rotate(45deg);
+    z-index: -1;
+}
+
+div:nth-child(4){
+    position: absolute;
+    top: 90vh;
+    left: 10vw;
+    background-color: grey;
+    height: 0;
+    width: 0;
+    transition: 2s .3s;
+    z-index: -2;
+}
+
+div:nth-child(5){
+    position: absolute;
+    top: 90vh;
+    left: 10vw;
+    background-color: yellow;
+    height: 0;
+    width: 0;
+    transition: 2s .4s;
+    z-index: 1;
+}
+
+div:nth-child(6){
+    position: absolute;
+    top: 90vh;
+    left: 10vw;
+    background-color: yellow;
+    height: 0;
+    width: 0;
+    transition: 2s .5s;
+    z-index: 1;
+}
+
+div:nth-child(7){
+    position: absolute;
+    top: 90vh;
+    left: 10vw;
+    background-color: grey;
+    height: 0;
+    width: 0;
+    transition: 2s .6s;
+    z-index: 1;
 }

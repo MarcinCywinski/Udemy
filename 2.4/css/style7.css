@@ -1,0 +1,67 @@
+span{
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    background-color: brown;
+    color: white;
+    padding: 10px 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+div{
+    position: absolute;
+    top: 90%;
+    left: 10%;
+    width: 0;
+    height: 0;
+    background-color: brown;
+    transition: 1s;
+}
+
+span:hover ~ div:nth-child(2){
+    top: 50%;
+    left: 50%;
+    width: 50vh;
+    height: 30vh;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+span:hover ~ div:nth-child(3){
+    top: calc(50% - 15vh);
+    left: 50%;
+    width: calc(50vh/1.41);
+    height: calc(50vh/1.41);
+    transform: translate(-50%, -50%) rotate(45deg);
+    background-color: black;
+    
+}
+
+div:nth-of-type(2){
+    transition-delay: .2s;
+}
+
+div:nth-of-type(3){
+    transition-delay: .4s;
+}
+div:nth-of-type(4){
+    transition-delay: .6s;
+}
+div:nth-of-type(5){
+    transition-delay: .7s;
+}
+div:nth-of-type(6){
+    transition-delay: .8s;
+}
+
+span:hover ~ div:nth-child(4){
+    top: calc(50% + 7.5vh);
+    left: 50%;
+    width: 10vh;
+    height: 15vh;
+    transform: translate(-50%, -50%);
+    background-color: gray;
+    z-index: 2;
+}
