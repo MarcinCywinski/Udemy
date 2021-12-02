@@ -1,0 +1,93 @@
+:root{
+    --aniTime: 15s;
+}
+
+body {
+    background-color: #444;
+    animation: sky 5s infinite linear;
+}
+
+.sun {
+    position: fixed;
+    bottom: 5%;
+    left: 10%;
+    width: 10vw;
+    height: 10vw;
+    background-color: darkred;
+    border-radius: 50%;
+    animation: sun var(--aniTime) linear infinite;
+}
+
+.grass {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 30vh;
+    background-color: #222;
+    animation: grass 5s linear infinite;
+}
+
+@keyframes sky {
+    0% {
+        background-color: #444;
+    }
+
+    20% {
+        background-color: rgb(112, 94, 97);
+    }
+
+    50% {
+        background-color: lightblue;
+    }
+
+    80% {
+        background-color: rgb(112, 94, 97);
+    }
+
+    100% {
+        background-color: #444;
+    }
+}
+
+@keyframes grass {
+    0% {
+        background-color: #222;
+    }
+
+    20% {
+        background-color: green;
+    }
+
+    50% {
+        background-color: greenyellow;
+    }
+
+    80% {
+        background-color: green;
+    }
+
+    100% {
+        background-color: #222;
+    }
+}
+
+@keyframes sun {
+    0% {
+        bottom: 5%;
+        left: 10%;
+        background-color: darkred;
+    }
+
+    50%{
+        bottom: 45%;
+        background-color: yellow;
+    }
+
+
+    100%{
+        bottom: 5%;
+        left: 90%;
+        background-color: darkred;
+    }
+}
