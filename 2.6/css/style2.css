@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button{
+    position: fixed;
+    background-color: transparent;
+}
+
+button:hover+div{
+    animation-play-state: paused;
+}
+
+div{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    animation: color 10s infinite steps(20), move 10s infinite linear;
+    animation-delay: 2s;
+}
+
+
+
+@keyframes move{
+    0%{
+        margin-left: -20%;
+    }
+
+    30%{
+        margin-left: calc(100% - 200px);
+    }
+    50%{
+        margin-left: calc(100% - 200px);
+    }
+
+    80%{
+        margin-left: 120%;
+        border-radius: 50%;
+    }
+    100%{
+        margin-left: -20%;
+    }
+}
+
+@keyframes color{
+    0%{
+        background-color: red;
+    }
+    10%{
+        background-color: #0f0;
+    }
+
+    50%{
+        background-color: saddlebrown;
+    }
+
+    90%{
+        background-color: skyblue;
+    }
+
+    100%{
+        background-color: red;
+    }
+}
