@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    height: 100vh;
+    background-image: radial-gradient(black 4%, red 4%, red 10%, green 10%, green 18%, white 18%);
+    overflow: hidden;
+}
+
+
+button{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+div{
+    position: absolute;
+    width: 4vh;
+    height: 4vh;
+    background-color: gray;
+    animation: move 3s infinite linear alternate, chaos 3s infinite linear alternate;
+}
+
+@keyframes move {
+    0%{
+        top: 20%;
+        left: 20%;
+    }
+
+    15%{
+        top: 54%;
+        left: 10%;
+    }
+
+    35%{
+        top: 35%;
+        left: 90%;
+    }
+    55%{
+        top: 54%;
+        left: 72%;
+    }
+
+    70%{
+        top: 35%;
+        left: 90%;
+    }
+
+    100%{
+        top: 80%;
+        left: 80%;
+    }
+}
+
+@keyframes chaos{
+    0%{
+        transform: translate(10vh, 10vh);
+    }
+
+    6%{
+        transform: translate(15vh, 13vh);
+    }
+
+    10%{
+        transform: translate(6vh, 67vh);
+    }
+
+    20%{
+        transform: translate(40vh, -10vh);
+    }
+    100%{
+
+    }
+}
+
+button:hover ~div{
+    animation-play-state: paused;
+}
