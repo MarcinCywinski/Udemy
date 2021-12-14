@@ -1,0 +1,17 @@
+html{
+    /* Stół */
+    --tableWidth: 700px;
+    --tableHeight: 400px;
+    --tableColor: #333;
+    /* rakietka */
+    --paddleWidth: 25px;
+    --paddleHeight: 80px;
+    --paddleColor: yellow;
+    /* Piłka */
+    --ballSize: 20px;
+    --ballColor: white;
+    /* Pozycja */
+    --paddleFromEdge: 150px;
+    /* Czas animacji */
+    --animationTime: 5s;
+}
