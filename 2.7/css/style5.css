@@ -13,7 +13,7 @@ html {
     /* pozycja */
     --paddleFromEdge: 50px;
     /* czas animacji */
-    --animationTime: 5s;
+    --animationTime: 5s ;
    }
  
    .table,
