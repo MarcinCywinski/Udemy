@@ -10,11 +10,25 @@
     color: cadetblue;
     text-align: center;
     line-height: 80px;
+    transition: .2s;
+    cursor: pointer;
 }
 
 .bell i{
     animation: rotate .5s linear infinite alternate;
     transform-origin: 50% 0;
+    transition: .2s;
+}
+
+.bell:hover{
+    background-color: cadetblue;
+}
+
+.bell:hover i{
+    color: white;
+    /* animation-duration: .1s; */
+    animation-play-state: paused;
+    /* animation: none; */
 }
 
 @keyframes rotate{
