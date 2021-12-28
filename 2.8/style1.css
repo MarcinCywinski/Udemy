@@ -1,0 +1,55 @@
+section{
+    display: flex;
+    /* justify-content: space-evenly; */
+    /* flex-direction: column-reverse; */
+    /* align-items: stretch; */
+    background-color: #ddd;
+    width: 80%;
+    margin: 100px auto;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    font-size: 100px;
+}
+
+.f1{
+    background-color: darkcyan;
+    width: 400px;
+    flex-basis: 800px;
+    text-align: center;
+    animation: f1 2s infinite linear;
+}
+
+.f2{
+    background-color: darkgoldenrod;
+    /* width: 20%; */
+}
+
+.f3{
+    background-color: darkmagenta;
+    /* width: 20%; */
+}
+
+.f4{
+    background-color: darkolivegreen;
+    /* width: 20%; */
+}
+
+.f5{
+    background-color: darkred;
+    /* width: 20%; */
+}
+
+@keyframes f1{
+    0%{
+        opacity: 1;
+    }
+    30%{
+        opacity: 0;
+    }
+    60%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
