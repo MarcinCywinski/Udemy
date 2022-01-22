@@ -53,3 +53,28 @@ footer {
     background-color: black;
     flex-basis: 10vh;
 }
+
+@media (max-width: 1024px) {
+    header{
+        order: -1;
+    }
+/* 
+    section{
+        flex-wrap: wrap;
+    }
+    aside{
+        flex-basis: 100%;
+        order: 0;
+    } */
+
+    section{
+        flex-direction: column;
+    }
+    aside{
+        flex-grow: 1;
+    }
+
+    main{
+        flex-grow: 2;
+    }
+}
