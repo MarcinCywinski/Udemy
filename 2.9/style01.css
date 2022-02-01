@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    border: 5px solid black;
+    padding: 100px;
+}
+
+.result{
+    flex-basis: 10%;
+    background-color: rgba(118, 66, 167, 0.432);
+}
+
+.panel{
+    flex-grow: 1;
+    background-color: cadetblue;
+}
+.panel{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.panel div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 30%;
+    flex-grow: 1;
+    font-size: 50px;
+}
+

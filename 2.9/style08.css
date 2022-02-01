@@ -1,0 +1,92 @@
+/* *{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    text-transform: uppercase;
+    text-align: center;
+}
+
+section{
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(128, 128, 128, 0.5);
+    width: 25%;
+}
+
+.price{
+    width: 80%;
+    height: 8vh;
+    border: 2px solid black;
+    text-align: center;
+    line-height: 8vh;
+    background-color: white;
+}
+
+img{
+    width: 70%;
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+html {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{
+    margin: 30px 0;
+    text-transform: uppercase;
+}
+
+section{
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.col{
+    box-sizing: border-box;
+    flex-basis: 25%;
+    background-color: #ddd;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+}
+
+.col>*{
+    padding-bottom: 25px;
+}
+
+.col img{
+    width: 80%;
+    align-self: center;
+}
+
+.col p.price{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.col p.price span{
+    border: 2px solid black;
+    background-color: white;
+    padding: 10px;
+}
