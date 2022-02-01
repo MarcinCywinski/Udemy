@@ -1,0 +1,40 @@
+body{
+    height: 300vh;
+}
+
+button{
+    font-size: 60px;
+}
+
+div.nuknuk{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(100, 148, 237, 0.8);
+}
+
+.closer{
+    position: absolute;
+    top: calc(50% - 15vh);
+    left: calc(50% - 15vh);
+    width: 30vh;
+    height: 30vh;
+}
+
+div.square{
+    display: block;
+    position: fixed;
+    top: calc(50% - 5vh);
+    left: calc(50% - 5vh);
+    width: 10vh;
+    height: 10vh;
+    background-color: darkcyan;
+    border-radius: 50%;
+}
+p{
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+}
