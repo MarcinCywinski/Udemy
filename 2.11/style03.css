@@ -28,3 +28,10 @@ button:hover{
     top: calc(50% - 50px);
     left: calc(40% - 50px);
 }
+
+.s3{
+    position: fixed;
+    top: calc(50% - 50px);
+    left: calc(30% - 50px);
+}
+

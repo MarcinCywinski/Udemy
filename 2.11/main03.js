@@ -35,3 +35,17 @@ function nuknukM(){
     };
     sqrM.style.transform = `rotate(${startM}deg)`;
 }
+
+
+const sqr3 = document.querySelector('.s3');
+let change = 0;
+
+function move(){
+    change += 5;
+    if (change === 30){
+        change = -30
+    }
+    sqr3.style.transform = `translateY(${change}vh)`;
+}
+
+btn.addEventListener('click', move);
