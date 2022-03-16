@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    height: 100vh;
+    background-image: url(img/Norway.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+main{
+    min-height: 150vh;
+    background-color: black;
+}
