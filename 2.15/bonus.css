@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+section{
+    width: 80%;
+    margin: 0 auto;
+    background-color: brown;
+    min-height: 50vh;
+}
+
+.s1{
+    background-color: rgb(187, 255, 0);
+    height: 120vh;
+}
+
+.s2{
+    background-color: rgb(67, 21, 196);
+    height: 80vh;
+}
+
+.s3{
+    background-color: rgb(9, 255, 0);
+}
+
+.s4{
+    background-color: rgb(255, 0, 85);
+    height: 140vh;
+}
+
+nav{
+    position: fixed;
+    top: 30%;
+    bottom: 30%;
+    left: 0;
+    width: 60px;
+    padding: 2px;
+    background-color: #ccc;
+}
+
+nav ul{
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav li{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: black;
+    transition: .5s;
+}
+
+.dot1{
+    background-color: rgb(187, 255, 0);
+}
+
+.dot2{
+    background-color: rgb(67, 21, 196);
+}
+
+.dot3{
+    background-color: rgb(9, 255, 0);
+}
+
+.dot4{
+    background-color: rgb(255, 0, 85);
+}
+
+.active{
+    box-shadow: 0 0 0 3px white, 0 0 0 6px red;
+}
