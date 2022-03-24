@@ -1,0 +1,16 @@
+a{
+    color: $font-color;
+    @include link-style;
+    &:hover{
+        background-color: #fff;
+        color: black;
+    }
+}
+
+ul{
+    @include box-flex(row, space-around)
+}
+
+li{
+    @include btn-desi(20%, 8vh)
+}

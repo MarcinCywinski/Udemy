@@ -1,0 +1,23 @@
+@mixin box-flex($direction, $justify){
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    list-style: none;
+}
+
+@mixin btn-desi($size1, $size2){
+    width: $size1;
+    height: $size2;
+    background-color: black;
+    text-align: center;
+
+}
+
+@mixin link-style{
+    display: block;
+    font-size: 2em;
+    line-height: 8vh;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transition: .5s;
+}
